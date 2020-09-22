@@ -1,0 +1,94 @@
+Please enter command
+print_comp            	   D              ,
+Extraneous text after end of command
+Please enter command
+	print_comp 	 	,              E
+Illegal comma
+print_comp 	 	 , 	  F 	  ,
+Illegal comma
+ print_comp b
+Undefined complex variable
+Please enter command
+
+read_comp D, 0,
+Missing parameter
+Please enter command
+   read_comp D , 0 , 0 ,
+Extraneous text after end of command
+Please enter command
+read_comp E,,5,6
+Multiple consecutive commas
+		read_comp G,8,9
+Undefined complex variable
+Please enter command
+read_comp A,4.5,5.6,C
+Extraneous text after end of command
+Please enter command
+
+add_comp C,F,
+Extraneous text after end of command
+Please enter command
+    add_comp ,C,F
+Illegal comma
+add_comp , C F,
+Illegal comma
+
+		sub_comp C,,F
+Multiple consecutive commas
+sub_comp c,F
+Undefined complex variable
+Please enter command
+sub_comp G,A
+Undefined complex variable
+Please enter command
+
+abs_comp a
+Undefined complex variable
+Please enter command
+ abs_comp AA
+Undefined complex variable
+Please enter command
+abs_comp
+Missing parameter
+abs_comp    5
+Undefined complex variable
+Please enter command
+abs_comp A,B
+Extraneous text after end of command
+Please enter command
+abs_comp 	A,b,c
+Extraneous text after end of command
+Please enter command
+
+mult_comp_real A,5,
+Extraneous text after end of command
+Please enter command
+mult_comp_real ,A 5,
+Illegal comma
+mult_comp_real A
+Missing parameter
+Please enter command
+
+mult_comp_img M,  5 
+Undefined complex variable
+Please enter command
+	mult_comp_img A,
+Missing parameter
+Please enter command
+mult_comp_img A, 5 6
+Extraneous text after end of command
+Please enter command
+
+mult_comp_comp, A, 5
+Illegal comma
+mult_comp_comp A,  6,
+Extraneous text after end of command
+Please enter command
+mult_comp_comp A,,
+Multiple consecutive commas
+
+	stop,
+Illegal comma
+stop	,
+Illegal comma
+End of file
